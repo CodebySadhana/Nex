@@ -142,7 +142,7 @@ function HeroNavbar() {
       <header className="fixed inset-x-0 top-0 z-10 flex flex-row items-center justify-between bg-transparent px-5 py-4 sm:px-8 sm:py-5">
         <Link href="/" className="flex flex-row items-center gap-3 select-none">
           <Image
-            src="/nex-logo.png"
+            src="/nex-logo.jpg"
             alt="Nex"
             width={56}
             height={56}
