@@ -67,6 +67,24 @@ pnpm typecheck
 pnpm build
 ```
 
+## Deployment
+
+Nex deploys anywhere Next.js runs. On [Vercel](https://vercel.com), import this repo
+(or use the button below), add the environment variables from the table above, and deploy —
+every push to `main` then deploys automatically.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FCodebySadhana%2FNex&env=OPENAI_API_KEY,OPENAI_BASE_URL,OPENAI_MODEL&envDescription=OpenAI-compatible%20provider%20credentials%20(works%20with%20OpenAI%2C%20Groq%2C%20and%20others)&project-name=nex)
+
+To use [Groq](https://groq.com) as the provider, set:
+
+```
+OPENAI_API_KEY=gsk_...
+OPENAI_BASE_URL=https://api.groq.com/openai/v1
+OPENAI_MODEL=llama-3.3-70b-versatile
+```
+
+Without an API key the deployed app runs in clearly-labeled mock mode.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Read [docs/TECH_STACK_AND_RULES.md](docs/TECH_STACK_AND_RULES.md)
